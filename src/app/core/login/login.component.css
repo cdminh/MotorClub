@@ -1,0 +1,180 @@
+.Sign-In {
+    margin: auto;
+    width: 146.7px;
+    height: 19px;
+    font-family: ProximaNova;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 0.48;
+    text-align: center;
+    color: #383838;
+  }
+
+  .Group {
+    margin: auto;
+    width: 297px;
+    height: 30px;
+    object-fit: contain;
+  }
+
+  .Sign-in-to-access-yo {
+    margin: auto;
+    width: 428.4px;
+    height: 19px;
+    font-family: ProximaNova;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 0.86;
+    text-align: center;
+    color: #383838;
+  }
+
+  .Rectangle-8 {
+    margin: auto;
+    width: 489px;
+    height: 46px;
+    background-color: #ffffff;
+    box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+    border: solid 1px #e1e1e1;
+  }
+
+  .Rectangle-non {
+    margin: auto;
+    width: 489px;
+    height: 46px;
+    background-color: #ffffff;    
+  }
+
+  .Password {
+    width: 146.7px;
+    height: 19px;
+    font-family: ProximaNova;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.19;
+    text-align: left;
+    color: #383838;
+  }
+
+  .Rectangle {
+    margin: auto;
+    width: 489px;
+    height: 56px;
+    background-color: #f6bc25;
+  }
+
+  .SIGN-IN-BTN {
+    width: 146.7px;
+    height: 19px;
+    font-family: ProximaNova;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 1.12;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .Sign-in-to-access-yo {
+    width: 428.4px;
+    height: 19px;
+    font-family: ProximaNova;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 0.86;
+    text-align: center;
+    color: #383838;
+  }
+
+  .Rectangle-3 {
+    margin: auto;
+    width: 554px;
+    height: 557.8px;
+    background-color: #ffffff;
+    border: solid 1px #e8e8e8;
+  }
+
+  .login {
+    padding-top: 3em;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background-color: #f5f5f5;
+  }
+
+  .Rectangle-3 div img{
+    text-align: center;
+    display: block
+  }
+
+  .logo-align{
+    height: 20%;
+    display: flex;
+    align-items: center;
+  }
+
+  .align-center{   
+    display: flex;
+  }
+
+  .height-10{
+    height: 10%;
+  }
+
+  .height-5{
+    height: 5%
+  }
+
+  .pmc-logo__image{
+    text-indent: -9999px;
+    width: 297px;
+    height: 30px;
+    content: url('../../../assets/images/logo.svg');
+    background-repeat: no-repeat;
+    background-size: 297px 30px;
+    margin: auto
+  }
+
+  .Email-or-Username {
+    width: 146.7px;
+    height: 19px;
+    font-family: ProximaNova;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.19;
+    text-align: left;
+    color: #383838;
+  }
+
+  .position-ab{
+      position: absolute;
+  }
+
+  .position-rel{
+      position: relative;
+  }
+
+  .position-ab-bottom{
+      bottom: 0;
+  }
+
+  .Rectangle {
+    width: 489px;
+    height: 56px;
+    background-color: #f6bc25;
+  }
+
+  .margin-top-26{
+      margin-top: 26px
+  }
+  
+  .height-81{
+      height:81px
+  }
+
+  .height-70{
+      height:70px
+  }
+
+  .wrapper{
+    height:100vh;
+  }

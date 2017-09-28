@@ -1,0 +1,184 @@
+@import 'variables';
+@import '../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap';
+
+@font-face { 
+    font-family: 'DINRoundOT'; 
+    src: url('assets/fonts/DINRoundOT.otf'); 
+}
+
+@font-face { 
+    font-family: 'DINRoundOT-Bold'; 
+    src: url('assets/fonts/DINRoundOT-Bold.otf'); 
+}
+
+body{
+    font-family: $pmc-font-family; 
+}
+
+.pmc-button--primary{
+    border-radius: 100px;
+    border: 1px solid $pmc-color-primary;
+    box-sizing: border-box;
+    background-color: $pmc-color-primary;
+    color: #ffffff;
+    height: 40px;
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    text-decoration: none;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    &:hover{
+        color: #ffffff;
+        text-decoration: none;
+    }
+    &:focus{
+        color: #ffffff;
+        text-decoration: none;
+    }
+}
+
+.pmc-button--primary[disabled]{
+    opacity: 0.65;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+.pmc-table thead tr td,
+.pmc-table tbody tr td{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.pmc-table thead{
+     background-color: $pmc-color-primary;
+     color: #ffffff;
+}
+
+.pmc-table thead td{
+    font-size: 13px;
+}
+
+.pmc-table tbody{
+    color: #333333;
+}
+
+.pmc-table tbody td{
+    font-size: 14px;
+}
+
+.pmc-table__action-column{
+    width: 110px;
+}
+
+.pmc-table__date-column{
+    width: 180px;
+}
+
+.pmc-table__clickable-row{
+    cursor: pointer;
+}
+
+.pmc-action-link{
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 100px;
+    border: 1px solid $pmc-color-primary;
+    box-sizing: border-box;
+    white-space: nowrap;
+    background-color: $pmc-color-primary;
+    padding: 0 20px;
+    color: #ffffff;
+    font-family: $pmc-font-family;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    &:hover{
+        color: #ffffff;
+        text-decoration: none;
+    }
+    &:focus{
+        color: #ffffff;
+        text-decoration: none;
+    }
+}
+
+.dont-break-out {
+    /* These are technically the same, but use both */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    /* This is the dangerous one in WebKit, as it breaks things wherever */
+    word-break: break-all;
+    /* Instead use this non-standard one: */
+    word-break: break-word;
+    /* Adds a hyphen where the word breaks, if supported (No Blink) */
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
+
+.quick-navigation-section{
+    width: 100%;
+    margin-top: 23px;
+    border-bottom: solid 1px #000000;
+    position: relative;
+}
+
+.quick-navigation-section ul{
+    margin-bottom: 5px;
+    margin-left: 0;
+}
+
+.quick-navigation-section ul li{
+    padding-left: 0;
+    padding-right: 0;
+    font-family: $pmc-font-family;
+    font-weight: bold;
+}
+
+.quick-navigation-section ul li a{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+    color: $pmc-color-primary;
+}
+
+.quick-navigation-section ul li:last-child a{
+    color: #303030;
+}
+
+.pmc-date-picker-control .date{
+    width: 100%;
+}
+
+.pmc-date-picker-control .input-group-addon{
+    width: 39px !important;
+}
+
+.pmc-time-picker-control .timepicker{
+    width: 100%;
+}
+
+.pmc-time-picker-control .timepicker .input-group-addon{
+    width: 39px;
+}
+
+.pmc-time-picker-control .date{
+    display: none;
+}

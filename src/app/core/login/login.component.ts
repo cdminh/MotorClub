@@ -10,10 +10,15 @@ import {LoginToken} from '../../service/login.service';
 
 export class LoginComponent implements OnInit {
 
-  constructor(private loginToken: LoginToken) { }
+  constructor(private loginService: LoginService) { }
   
   ngOnInit() { 
-    let loginToken: LoginToken = new this.loginToken();
+    
+  }
+
+  submit(){
+    let loginToken = this.loginService.getLoginTokenInstance();
+    let token = this.loginService.getToken();
   }
 
 }

@@ -8,7 +8,7 @@ export class LoginService{
     constructor (private jsonp: Jsonp){}
     private getTokenUrl = "http://api.paddockmotorclub.ca/api/mobile/accounts/signin";
 
-    getToken(tokenUrl: string){
+    getToken(){
         let params = new URLSearchParams();
         params.set("emailOrUsername", "minhcu");
         params.set("password", "Minhcu123!@#");        
@@ -16,6 +16,10 @@ export class LoginService{
         return this.jsonp.get(this.getTokenUrl, { search: params})
                         .map(response => <LoginToken>response.json())
     };
+
+    getLoginTokenInstance(){
+        return new LoginToken();
+    }
 }
 
 export class LoginToken {    
